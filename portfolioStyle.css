@@ -1,0 +1,132 @@
+body {
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+#header {
+    background-color: white;
+}
+
+#header h1 {
+    float: left;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin-left: 50px;
+}
+
+#header p {
+    float: right;
+    font-size: 20pt;
+    margin-right: 50px;
+}
+
+#content {
+    display: inline-block;
+    background: radial-gradient(#623E88, #34204A);
+}
+
+#profile {
+    border: 5px solid grey;
+    width: 450px;
+    height: auto;
+    float: left;
+    margin: 20px;
+}
+
+#bio {
+    background: linear-gradient(to right, white, #C39BD3);
+    width: 495px;
+    float: left;
+    margin: 20px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    margin-bottom: 0px;
+    padding: 10px;
+    margin: 0px;
+    color: white;
+    background: linear-gradient(#BDC3C7, #797D7F, #BDC3C7);
+}
+
+#bio p {
+    margin: 0px;
+    padding: 10px 10px 10px 10px;
+}
+
+#bio a {
+    padding: 10px;
+}
+
+#projects {
+    clear: left;
+    margin-left: 20px;
+}
+
+.info {
+    display: inline-block;
+    width: 325px;
+    height: 450px;
+    float:left;
+    margin-right: 20px;
+    background: linear-gradient(to right, white, #C39BD3);
+}
+
+.info img {
+    width: 325px;
+    height: auto;
+}
+
+.info p {
+    padding: 5px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#techs {
+    clear: left;
+    margin-left: 20px;
+}
+
+.techImg {
+    display: inline-block;
+    width: 325px;
+    float:left;
+    margin-right: 20px;
+    padding-bottom: 20px;
+    background: linear-gradient(to right, white, #C39BD3);
+}
+
+.techImg img {
+    width: 50px;
+    height: 50px;
+    padding: 10px 0px 0px 10px;
+    float: left;
+}
+
+button {
+    background-color: green;
+    color: white;
+    border: black;
+    box-shadow: 5px 5px 5px grey;
+    float: left;
+    clear: left;
+    margin-left: 35%;
+    margin-top: 10px;
+}
+
+#contact {
+    text-align: center;
+    padding: 5px;
+}
+
+#contact img {
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+}
+
+#contact a {
+    color: black;
+    padding-left: 2px;
+}
